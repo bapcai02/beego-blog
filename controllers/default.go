@@ -14,6 +14,6 @@ func (c *MainController) Get() {
 	c.TplName = "index.tpl"
 }
 
-func (c *MainController) GetAdmin() {
-	c.TplName = "admin/login.html"
+func (c *MainController) GetBlog() {
+	c.TplName = "blog/index.html"
 }
